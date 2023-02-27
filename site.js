@@ -41,8 +41,7 @@ const vue_app = Vue.createApp({
             title: "IMDB + Brandon Lu's top 8 movies",
             owner: 'Brandon Lu',
             github: 'https://123bl.github.io/Lu-P3/',
-            movies[0].title: "Shawshank Redemption"
-
+           
       }
     },
       methods: {
