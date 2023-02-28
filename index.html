@@ -30,11 +30,11 @@
 
 	    </div>
 
-	    <div class="main" li v-for="(movie, index) in movies">
+	    <div class="main">
 
 	      <div class="row">
 
-	        <div class="col-md-6">
+	        <div class="col-md-6" li v-for="(movie, index) in movies">
 	            <div class="thumbnail">
 
 						<img class="poster img-fluid" :src="movies[index].posters[0]" />
@@ -47,8 +47,8 @@
 						<p class="websites" :href="movies[index].imdb" :href="movies[index].website">Websites: <a> imdb </a> | <a>website</a></p>
 
 			            <div class="social">
-			              <p class="likes"><i class="bi bi-hand-thumbs-up" aria-hidden="true"></i> {{movies[index].likes}}</p>
-			              <p class="dislikes"><i class="bi bi-hand-thumbs-down"></i> {{movies[index].dislikes}}</p>
+			              <p class="likes" @click="movies[index].likes++"><i class="bi bi-hand-thumbs-up" aria-hidden="true"></i> {{movies[index].likes}}</p>
+			              <p class="dislikes" @click="movies[index].dislikes++"><i class="bi bi-hand-thumbs-down"></i> {{movies[index].dislikes}}</p>
 			            </div>
 	            </div>
 	        </div>
