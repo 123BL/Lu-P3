@@ -48,7 +48,7 @@ const vue_app = Vue.createApp({
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
        getMonthText(dateArray) {
             switch (dateArray[1]) {
-                  case 0:
+                        case 0:
                         return "Error";
                         break;
                         case 1:
@@ -89,25 +89,26 @@ const vue_app = Vue.createApp({
                         break;
                         default:
                         return "Error";
+                        break;
 
             }
        },
        posterClick(index){
-            var x = this.movie[index].posterindex;
-            var y = this.movie[index].poster.length;
+            var x = this.movies[index].posterindex;
+            var y = this.movies[index].posters.length;
             if (x < y-1) {
-            this.movies[index].posterIndex++;
+            this.movies[index].posterindex++;
             }
                   else {
-                        this.movie[index].posterIndex = 0;
+                        this.movies[index].posterindex = 0;
                   }
             },
             timeText(minutes){
-             var hours = math.trunc(minutes/60);
+             var hours = Math.trunc(minutes/60);
              var min = minutes % 60;
              return hours + "h" + min + "m"
             },
-       },
+       }
       
 })
 
