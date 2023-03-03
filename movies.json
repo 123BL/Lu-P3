@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Creed 3",
+            "iscore": 7.4,
+            "rating": "PG-13",
+            "runtime": 116,
+            "released": [2023, 3, 3],
+            "country": "USA",
+            "posters": ["img/shawshank.jpg", "img/shawshank2.jpg", "img/shawshank3.jpg"],
+            "imdb": "http://www.imdb.com/title/tt0111161",
+            "website": "https://www.facebook.com/ShawshankRedemptionFilm",
+            "likes": 1021,
+            "dislikes": 122,
+            "posterindex": 0
+      },
+      {
+            "title": "The Shawshank Redemption",
+            "iscore": 9.3,
+            "rating": "R",
+            "runtime": 142,
+            "released": [1994, 10, 14],
+            "country": "USA",
+            "posters": ["img/shawshank.jpg", "img/shawshank2.jpg", "img/shawshank3.jpg"],
+            "imdb": "http://www.imdb.com/title/tt0111161",
+            "website": "https://www.facebook.com/ShawshankRedemptionFilm",
+            "likes": 1021,
+            "dislikes": 122,
+            "posterindex": 0
+      },
+      {
+            "title": "The Shawshank Redemption",
+            "iscore": 9.3,
+            "rating": "R",
+            "runtime": 142,
+            "released": [1994, 10, 14],
+            "country": "USA",
+            "posters": ["img/shawshank.jpg", "img/shawshank2.jpg", "img/shawshank3.jpg"],
+            "imdb": "http://www.imdb.com/title/tt0111161",
+            "website": "https://www.facebook.com/ShawshankRedemptionFilm",
+            "likes": 1021,
+            "dislikes": 122,
+            "posterindex": 0
       }
 ]
